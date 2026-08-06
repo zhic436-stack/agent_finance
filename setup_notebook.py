@@ -63,7 +63,9 @@ def step3_ascend():
         context.set_context(device_target="Ascend")
         print(f"  OK 昇腾 NPU 可用 (MindSpore {mindspore.__version__})")
     except ImportError:
-        print("  - MindSpore 未安装 (昇腾环境执行: pip install mindspore-ascend)")
+        print("  - MindSpore 未安装")
+        print("    若本环境是昇腾 NPU 资源, 执行: pip install mindspore-ascend 后重跑")
+        print("    或配置昇腾云 API: 编辑 .env 填 ASCEND_API_KEY (见 README)")
     except Exception as e:  # noqa: BLE001
         print(f"  - NPU 检测失败, 使用 CPU: {type(e).__name__}")
 
