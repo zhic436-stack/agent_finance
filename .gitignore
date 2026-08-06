@@ -1,0 +1,24 @@
+# 密钥
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 测试与缓存
+.pytest_cache/
+*.log
+.streamlit-*.err.log
+
+# 运行时产物 (不推 GitHub)
+data/cache.sqlite
+data/history/
+data/financial_cache.json
+
+# 调试残留
+*_dump.txt
+inline
+*.png
+*.html
+*.webm

@@ -1,0 +1,34 @@
+=== data_collector ===
+  ✅ get_concept_list
+  ✅ get_concept_stocks
+  ✅ get_stock_news
+  ✅ get_stock_financials
+  ✅ get_stock_market_data
+  ✅ get_stock_profile
+=== event_analyzer ===
+  ✅ parse_event
+  ✅ deduce_industry_chain
+  ✅ find_matching_concepts
+=== factor_engine ===
+  ✅ calc_event_factor
+  ✅ calc_value_factor
+  ✅ calc_growth_factor
+  ✅ calc_market_factor
+  ✅ calc_composite_score
+  ✅ compute_all_factors
+  ✅ compute_all_factors_batch
+=== risk_analyzer ===
+  ✅ analyze_risk
+  ✅ analyze_risk_batch
+=== pipeline ===
+  ✅ run_analysis
+  ❌ run_analysis_cached (未实现)
+  ❌ compare_topics (未实现)
+  ❌ aggregate_topics (未实现)
+=== report_generator ===
+  ✅ generate_report
+=== llm ===
+  ✅ chat_completion
+  ❌ async_chat_completion (未实现)
+
+缺失接口: ['pipeline.run_analysis_cached', 'pipeline.compare_topics', 'pipeline.aggregate_topics', 'llm.async_chat_completion']

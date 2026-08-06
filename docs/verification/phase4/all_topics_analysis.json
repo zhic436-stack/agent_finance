@@ -1,0 +1,98 @@
+{
+  "topic_count": 10,
+  "success_count": 10,
+  "avg_elapsed_s": 8.05,
+  "max_elapsed_s": 10.93,
+  "topics": {
+    "低空经济": {
+      "event_type": "行业",
+      "chain_count": 0,
+      "stock_count": 10,
+      "has_hypothesis": true,
+      "report_len": 750,
+      "elapsed_s": 10.93,
+      "trace_steps": 6
+    },
+    "AI算力": {
+      "event_type": "行业",
+      "chain_count": 4,
+      "stock_count": 10,
+      "has_hypothesis": true,
+      "report_len": 792,
+      "elapsed_s": 7.0,
+      "trace_steps": 6
+    },
+    "机器人": {
+      "event_type": "行业",
+      "chain_count": 8,
+      "stock_count": 10,
+      "has_hypothesis": true,
+      "report_len": 832,
+      "elapsed_s": 8.21,
+      "trace_steps": 6
+    },
+    "新能源": {
+      "event_type": "行业",
+      "chain_count": 7,
+      "stock_count": 10,
+      "has_hypothesis": true,
+      "report_len": 798,
+      "elapsed_s": 8.09,
+      "trace_steps": 6
+    },
+    "半导体": {
+      "event_type": "行业",
+      "chain_count": 7,
+      "stock_count": 10,
+      "has_hypothesis": true,
+      "report_len": 832,
+      "elapsed_s": 8.71,
+      "trace_steps": 6
+    },
+    "人工智能": {
+      "event_type": "行业",
+      "chain_count": 15,
+      "stock_count": 10,
+      "has_hypothesis": true,
+      "report_len": 886,
+      "elapsed_s": 8.95,
+      "trace_steps": 6
+    },
+    "新能源汽车": {
+      "event_type": "行业",
+      "chain_count": 4,
+      "stock_count": 10,
+      "has_hypothesis": true,
+      "report_len": 789,
+      "elapsed_s": 6.41,
+      "trace_steps": 6
+    },
+    "光伏": {
+      "event_type": "行业",
+      "chain_count": 0,
+      "stock_count": 10,
+      "has_hypothesis": true,
+      "report_len": 720,
+      "elapsed_s": 8.09,
+      "trace_steps": 6
+    },
+    "军工": {
+      "event_type": "行业",
+      "chain_count": 0,
+      "stock_count": 10,
+      "has_hypothesis": true,
+      "report_len": 707,
+      "elapsed_s": 6.26,
+      "trace_steps": 6
+    },
+    "消费电子": {
+      "event_type": "行业",
+      "chain_count": 7,
+      "stock_count": 10,
+      "has_hypothesis": true,
+      "report_len": 793,
+      "elapsed_s": 7.88,
+      "trace_steps": 6
+    }
+  }
+}

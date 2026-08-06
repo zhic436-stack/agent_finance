@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-08-01T03:03:34",
+  "overall_status": "healthy",
+  "details": {
+    "system": {
+      "status": "ok",
+      "cpu_percent": 6.5,
+      "memory_percent": 78.7
+    },
+    "network": {
+      "status": "ok",
+      "message": "网络可达"
+    },
+    "data_source": {
+      "status": "ok",
+      "message": "离线包可用 (297只低空经济股)"
+    },
+    "ascend_api": {
+      "status": "ok",
+      "message": "API 正常"
+    },
+    "cache": {
+      "status": "ok",
+      "present": [
+        "data/demo_state.json",
+        "data/offline/low_altitude_economy.json"
+      ],
+      "missing": []
+    },
+    "offline_packs": {
+      "status": "ok",
+      "topic_count": 10,
+      "empty_topics": []
+    }
+  }
+}

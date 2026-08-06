@@ -1,0 +1,3458 @@
+{
+  "version": 4,
+  "generated_at": "2026-08-01T16:21:49",
+  "topics": {
+    "低空经济": {
+      "event": {
+        "event_type": "行业",
+        "benefited_industries": [
+          "无人机",
+          "eVTOL(飞行汽车)",
+          "低空空管系统",
+          "航空航天制造",
+          "碳纤维材料",
+          "通信导航",
+          "物流运输",
+          "旅游观光"
+        ],
+        "keywords": [
+          "低空经济",
+          "eVTOL",
+          "无人机",
+          "通用航空",
+          "空域管理",
+          "低空空管",
+          "飞行汽车"
+        ],
+        "topic": "低空经济"
+      },
+      "chain": [],
+      "hypothesis": {
+        "event_type": "行业",
+        "core_logic": "政策利好 → 整机制造率先受益 → 通航运营放量 → 空管系统跟进 → 基础设施配套",
+        "propagation_path": [
+          {
+            "node": "整机制造",
+            "description": "产业链整机制造环节"
+          },
+          {
+            "node": "通航运营",
+            "description": "产业链通航运营环节"
+          },
+          {
+            "node": "空管系统",
+            "description": "产业链空管系统环节"
+          },
+          {
+            "node": "基础设施",
+            "description": "产业链基础设施环节"
+          }
+        ],
+        "key_companies": [],
+        "verification_indicators": [
+          "新闻数量",
+          "概念匹配度",
+          "估值水平",
+          "市场关注度"
+        ],
+        "uncertainties": [
+          "政策落地时间不确定",
+          "行业竞争格局可能变化",
+          "需求增速可能不及预期"
+        ]
+      },
+      "concepts": [],
+      "report": "# 低空经济 研究报告\n\n**事件类型**: 行业景气\n**受益行业**: 无人机、eVTOL(飞行汽车)、低空空管系统、航空航天制造、碳纤维材料、通信导航、物流运输、旅游观光\n**关键词**: 低空经济、eVTOL、无人机、通用航空、空域管理、低空空管、飞行汽车\n\n## 一、影响链分析\n\n未匹配到产业链规则。\n\n## 二、个股多因子排名\n\n| 排名 | 代码 | 名称 | 综合分 | 事件 | 价值 | 成长 | 市场 | 风险 |\n|---|---|---|---|---|---|---|---|---|\n| 1 | 920493 | 并行科技 | 30.4 | 50.0 | 0.0 | 0.0 | 77.1 | 低 |\n| 2 | 920491 | 奥迪威 | 26.5 | 50.0 | 0.0 | 0.0 | 57.5 | 低 |\n| 3 | 920961 | 创远信科 | 25.9 | 50.0 | 0.0 | 0.0 | 54.5 | 低 |\n| 4 | 920748 | 路桥信息 | 25.8 | 50.0 | 0.0 | 0.0 | 53.8 | 低 |\n| 5 | 920806 | 云星宇 | 25.2 | 50.0 | 0.0 | 0.0 | 50.8 | 低 |\n\n## 三、风险提示\n\n- 当前标的整体风险可控\n\n---\n*数据来源: 东方财富(akshare) / 离线缓存包 | 生成时间: 2026-08-01 13:01:23*\n\n> **免责声明**: 本报告由 AI 系统自动生成, 仅作研究参考, 不构成任何投资建议。投资有风险, 入市需谨慎。",
+      "elapsed_ms": 9180,
+      "stock_results": [
+        {
+          "code": "920961",
+          "name": "创远信科",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 54.49,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 25.9
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.3188,
+            "max_drawdown": 0.0623,
+            "valuation_risk": "中",
+            "detail": "vol31.9%, dd6.2%"
+          }
+        },
+        {
+          "code": "920892",
+          "name": "广咨国际",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 38.02,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 22.6
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.0742,
+            "max_drawdown": 0.1996,
+            "valuation_risk": "中",
+            "detail": "vol7.4%, dd20.0%"
+          }
+        },
+        {
+          "code": "920806",
+          "name": "云星宇",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 50.8,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 25.16
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.1661,
+            "max_drawdown": 0.3149,
+            "valuation_risk": "中",
+            "detail": "vol16.6%, dd31.5%"
+          }
+        },
+        {
+          "code": "920748",
+          "name": "路桥信息",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 53.76,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 25.75
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.0689,
+            "max_drawdown": 0.289,
+            "valuation_risk": "中",
+            "detail": "vol6.9%, dd28.9%"
+          }
+        },
+        {
+          "code": "920690",
+          "name": "捷众科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 46.07,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.21
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.0345,
+            "max_drawdown": 0.1115,
+            "valuation_risk": "中",
+            "detail": "vol3.5%, dd11.2%"
+          }
+        },
+        {
+          "code": "920640",
+          "name": "富士达",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 44.45,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.89
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.0457,
+            "max_drawdown": 0.329,
+            "valuation_risk": "中",
+            "detail": "vol4.6%, dd32.9%"
+          }
+        },
+        {
+          "code": "920508",
+          "name": "殷图网联",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 48.41,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.68
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.1935,
+            "max_drawdown": 0.315,
+            "valuation_risk": "中",
+            "detail": "vol19.4%, dd31.5%"
+          }
+        },
+        {
+          "code": "920493",
+          "name": "并行科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 77.08,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 30.42
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3979,
+            "max_drawdown": 0.143,
+            "valuation_risk": "中",
+            "detail": "vol39.8%, dd14.3%"
+          }
+        },
+        {
+          "code": "920491",
+          "name": "奥迪威",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 57.55,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 26.51
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.1589,
+            "max_drawdown": 0.3049,
+            "valuation_risk": "中",
+            "detail": "vol15.9%, dd30.5%"
+          }
+        },
+        {
+          "code": "920427",
+          "name": "华维设计",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 44.04,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.81
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1063,
+            "max_drawdown": 0.0615,
+            "valuation_risk": "中",
+            "detail": "vol10.6%, dd6.2%"
+          }
+        }
+      ],
+      "errors": []
+    },
+    "AI算力": {
+      "event": {
+        "event_type": "行业",
+        "benefited_industries": [
+          "半导体",
+          "服务器",
+          "光模块",
+          "数据中心",
+          "云计算",
+          "PCB",
+          "液冷"
+        ],
+        "keywords": [
+          "AI算力",
+          "GPU",
+          "芯片",
+          "智算中心",
+          "光通信",
+          "算力基础设施"
+        ],
+        "topic": "AI算力"
+      },
+      "chain": [
+        {
+          "name": "设备材料",
+          "keywords": [
+            "光刻机",
+            "刻蚀",
+            "半导体设备",
+            "硅片"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "芯片设计",
+          "keywords": [
+            "芯片设计",
+            "GPU",
+            "存储芯片",
+            "SoC"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "制造封测",
+          "keywords": [
+            "晶圆制造",
+            "封测",
+            "代工"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "终端应用",
+          "keywords": [
+            "AI芯片",
+            "汽车芯片",
+            "消费电子"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        }
+      ],
+      "hypothesis": {
+        "event_type": "行业",
+        "core_logic": "大模型需求爆发 → AI芯片供不应求 → 服务器与算力租赁受益 → 光模块等上游放量",
+        "propagation_path": [
+          {
+            "node": "AI芯片",
+            "description": "产业链AI芯片环节"
+          },
+          {
+            "node": "服务器",
+            "description": "产业链服务器环节"
+          },
+          {
+            "node": "算力租赁",
+            "description": "产业链算力租赁环节"
+          },
+          {
+            "node": "光模块",
+            "description": "产业链光模块环节"
+          }
+        ],
+        "key_companies": [],
+        "verification_indicators": [
+          "新闻数量",
+          "概念匹配度",
+          "估值水平",
+          "市场关注度"
+        ],
+        "uncertainties": [
+          "政策落地时间不确定",
+          "行业竞争格局可能变化",
+          "需求增速可能不及预期"
+        ]
+      },
+      "concepts": [
+        "光刻机",
+        "存储芯片",
+        "AI芯片",
+        "汽车芯片",
+        "消费电子概念"
+      ],
+      "report": "# AI算力 研究报告\n\n**事件类型**: 行业景气\n**受益行业**: 半导体、服务器、光模块、数据中心、云计算、PCB、液冷\n**关键词**: AI算力、GPU、芯片、智算中心、光通信、算力基础设施\n\n## 一、影响链分析\n\n> 需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发\n\n产业链环节: 设备材料 → 芯片设计 → 制造封测 → 终端应用\n\n## 二、个股多因子排名\n\n| 排名 | 代码 | 名称 | 综合分 | 事件 | 价值 | 成长 | 市场 | 风险 |\n|---|---|---|---|---|---|---|---|---|\n| 1 | 688787 | 海天瑞声 | 31.0 | 50.0 | 0.0 | 0.0 | 80.0 | 低 |\n| 2 | 920493 | 并行科技 | 30.4 | 50.0 | 0.0 | 0.0 | 77.1 | 低 |\n| 3 | 688685 | 迈信林 | 29.7 | 50.0 | 0.0 | 0.0 | 73.4 | 低 |\n| 4 | 688795 | 摩尔线程 | 27.1 | 50.0 | 0.0 | 0.0 | 60.4 | 低 |\n| 5 | 920924 | 广脉科技 | 26.1 | 50.0 | 0.0 | 0.0 | 55.3 | 低 |\n\n## 三、风险提示\n\n- 当前标的整体风险可控\n\n---\n*数据来源: 东方财富(akshare) / 离线缓存包 | 生成时间: 2026-08-01 13:01:31*\n\n> **免责声明**: 本报告由 AI 系统自动生成, 仅作研究参考, 不构成任何投资建议。投资有风险, 入市需谨慎。",
+      "elapsed_ms": 7730,
+      "stock_results": [
+        {
+          "code": "920924",
+          "name": "广脉科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 55.34,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 26.07
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3919,
+            "max_drawdown": 0.134,
+            "valuation_risk": "中",
+            "detail": "vol39.2%, dd13.4%"
+          }
+        },
+        {
+          "code": "920641",
+          "name": "格利尔",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 46.07,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.21
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.043,
+            "max_drawdown": 0.2339,
+            "valuation_risk": "中",
+            "detail": "vol4.3%, dd23.4%"
+          }
+        },
+        {
+          "code": "920493",
+          "name": "并行科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 77.08,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 30.42
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.3274,
+            "max_drawdown": 0.1143,
+            "valuation_risk": "中",
+            "detail": "vol32.7%, dd11.4%"
+          }
+        },
+        {
+          "code": "920092",
+          "name": "汉鑫科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 45.57,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.11
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.1943,
+            "max_drawdown": 0.3034,
+            "valuation_risk": "中",
+            "detail": "vol19.4%, dd30.3%"
+          }
+        },
+        {
+          "code": "920010",
+          "name": "凯添燃气",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 40.45,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.09
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3995,
+            "max_drawdown": 0.2968,
+            "valuation_risk": "中",
+            "detail": "vol40.0%, dd29.7%"
+          }
+        },
+        {
+          "code": "688802",
+          "name": "沐曦股份",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 46.29,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.26
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.2836,
+            "max_drawdown": 0.3347,
+            "valuation_risk": "中",
+            "detail": "vol28.4%, dd33.5%"
+          }
+        },
+        {
+          "code": "688795",
+          "name": "摩尔线程",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 60.38,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 27.08
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.2768,
+            "max_drawdown": 0.1459,
+            "valuation_risk": "中",
+            "detail": "vol27.7%, dd14.6%"
+          }
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 80.0,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 31.0
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.1238,
+            "max_drawdown": 0.2566,
+            "valuation_risk": "中",
+            "detail": "vol12.4%, dd25.7%"
+          }
+        },
+        {
+          "code": "688685",
+          "name": "迈信林",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 73.38,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 29.68
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1929,
+            "max_drawdown": 0.034,
+            "valuation_risk": "中",
+            "detail": "vol19.3%, dd3.4%"
+          }
+        },
+        {
+          "code": "688589",
+          "name": "力合微",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 44.14,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.83
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.0142,
+            "max_drawdown": 0.0872,
+            "valuation_risk": "中",
+            "detail": "vol1.4%, dd8.7%"
+          }
+        }
+      ],
+      "errors": []
+    },
+    "机器人": {
+      "event": {
+        "event_type": "行业",
+        "benefited_industries": [
+          "机器人制造",
+          "人工智能",
+          "半导体",
+          "自动化设备",
+          "工业母机",
+          "电子元器件",
+          "高端制造"
+        ],
+        "keywords": [
+          "机器人",
+          "人形机器人",
+          "具身智能",
+          "自动化",
+          "AI",
+          "减速器",
+          "伺服电机",
+          "机器视觉"
+        ],
+        "topic": "机器人"
+      },
+      "chain": [
+        {
+          "name": "算力底座",
+          "keywords": [
+            "算力",
+            "GPU",
+            "数据中心"
+          ],
+          "companies": [],
+          "concept": "人工智能",
+          "transmission": "模型突破 → 算力需求爆发 → 平台成熟 → 应用落地 → 数据服务受益"
+        },
+        {
+          "name": "模型平台",
+          "keywords": [
+            "大模型",
+            "AI平台",
+            "算法"
+          ],
+          "companies": [],
+          "concept": "人工智能",
+          "transmission": "模型突破 → 算力需求爆发 → 平台成熟 → 应用落地 → 数据服务受益"
+        },
+        {
+          "name": "应用场景",
+          "keywords": [
+            "AIGC",
+            "智能体",
+            "AI应用"
+          ],
+          "companies": [],
+          "concept": "人工智能",
+          "transmission": "模型突破 → 算力需求爆发 → 平台成熟 → 应用落地 → 数据服务受益"
+        },
+        {
+          "name": "数据服务",
+          "keywords": [
+            "数据标注",
+            "数据集",
+            "语料"
+          ],
+          "companies": [],
+          "concept": "人工智能",
+          "transmission": "模型突破 → 算力需求爆发 → 平台成熟 → 应用落地 → 数据服务受益"
+        },
+        {
+          "name": "设备材料",
+          "keywords": [
+            "光刻机",
+            "刻蚀",
+            "半导体设备",
+            "硅片"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "芯片设计",
+          "keywords": [
+            "芯片设计",
+            "GPU",
+            "存储芯片",
+            "SoC"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "制造封测",
+          "keywords": [
+            "晶圆制造",
+            "封测",
+            "代工"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "终端应用",
+          "keywords": [
+            "AI芯片",
+            "汽车芯片",
+            "消费电子"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        }
+      ],
+      "hypothesis": {
+        "event_type": "行业",
+        "core_logic": "产业政策驱动 → 核心零部件突破 → 传感器配套 → 本体量产 → 系统集成落地",
+        "propagation_path": [
+          {
+            "node": "核心零部件",
+            "description": "产业链核心零部件环节"
+          },
+          {
+            "node": "传感器",
+            "description": "产业链传感器环节"
+          },
+          {
+            "node": "本体制造",
+            "description": "产业链本体制造环节"
+          },
+          {
+            "node": "系统集成",
+            "description": "产业链系统集成环节"
+          }
+        ],
+        "key_companies": [],
+        "verification_indicators": [
+          "新闻数量",
+          "概念匹配度",
+          "估值水平",
+          "市场关注度"
+        ],
+        "uncertainties": [
+          "政策落地时间不确定",
+          "行业竞争格局可能变化",
+          "需求增速可能不及预期"
+        ]
+      },
+      "concepts": [
+        "人工智能",
+        "算力概念",
+        "数据中心",
+        "AIGC概念",
+        "AI智能体",
+        "AI应用",
+        "AI语料",
+        "光刻机",
+        "存储芯片",
+        "AI芯片",
+        "汽车芯片",
+        "消费电子概念"
+      ],
+      "report": "# 机器人 研究报告\n\n**事件类型**: 行业景气\n**受益行业**: 机器人制造、人工智能、半导体、自动化设备、工业母机、电子元器件、高端制造\n**关键词**: 机器人、人形机器人、具身智能、自动化、AI、减速器、伺服电机、机器视觉\n\n## 一、影响链分析\n\n> 模型突破 → 算力需求爆发 → 平台成熟 → 应用落地 → 数据服务受益\n\n产业链环节: 算力底座 → 模型平台 → 应用场景 → 数据服务 → 设备材料 → 芯片设计 → 制造封测 → 终端应用\n\n## 二、个股多因子排名\n\n| 排名 | 代码 | 名称 | 综合分 | 事件 | 价值 | 成长 | 市场 | 风险 |\n|---|---|---|---|---|---|---|---|---|\n| 1 | 920857 | 泓禧科技 | 30.5 | 50.0 | 0.0 | 0.0 | 77.7 | 低 |\n| 2 | 920932 | 科达自控 | 28.7 | 50.0 | 0.0 | 0.0 | 68.3 | 低 |\n| 3 | 920593 | 鼎智科技 | 28.5 | 50.0 | 0.0 | 0.0 | 67.5 | 低 |\n| 4 | 920961 | 创远信科 | 25.9 | 50.0 | 0.0 | 0.0 | 54.5 | 低 |\n| 5 | 920978 | 开特股份 | 25.0 | 50.0 | 0.0 | 0.0 | 50.1 | 低 |\n\n## 三、风险提示\n\n- 当前标的整体风险可控\n\n---\n*数据来源: 东方财富(akshare) / 离线缓存包 | 生成时间: 2026-08-01 13:01:38*\n\n> **免责声明**: 本报告由 AI 系统自动生成, 仅作研究参考, 不构成任何投资建议。投资有风险, 入市需谨慎。",
+      "elapsed_ms": 7170,
+      "stock_results": [
+        {
+          "code": "920978",
+          "name": "开特股份",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 50.12,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 25.02
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.1971,
+            "max_drawdown": 0.1982,
+            "valuation_risk": "中",
+            "detail": "vol19.7%, dd19.8%"
+          }
+        },
+        {
+          "code": "920961",
+          "name": "创远信科",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 54.49,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 25.9
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.1837,
+            "max_drawdown": 0.155,
+            "valuation_risk": "中",
+            "detail": "vol18.4%, dd15.5%"
+          }
+        },
+        {
+          "code": "920932",
+          "name": "科达自控",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 68.34,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 28.67
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.0653,
+            "max_drawdown": 0.332,
+            "valuation_risk": "中",
+            "detail": "vol6.5%, dd33.2%"
+          }
+        },
+        {
+          "code": "920906",
+          "name": "舜宇精工",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 44.14,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.83
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.0364,
+            "max_drawdown": 0.2704,
+            "valuation_risk": "中",
+            "detail": "vol3.6%, dd27.0%"
+          }
+        },
+        {
+          "code": "920896",
+          "name": "旺成科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 41.84,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.37
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.0574,
+            "max_drawdown": 0.0663,
+            "valuation_risk": "中",
+            "detail": "vol5.7%, dd6.6%"
+          }
+        },
+        {
+          "code": "920857",
+          "name": "泓禧科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 77.66,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 30.53
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.1863,
+            "max_drawdown": 0.2988,
+            "valuation_risk": "中",
+            "detail": "vol18.6%, dd29.9%"
+          }
+        },
+        {
+          "code": "920856",
+          "name": "浩淼科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 35.42,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 22.08
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.1028,
+            "max_drawdown": 0.2388,
+            "valuation_risk": "中",
+            "detail": "vol10.3%, dd23.9%"
+          }
+        },
+        {
+          "code": "920839",
+          "name": "万通液压",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 39.01,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 22.8
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.2765,
+            "max_drawdown": 0.2591,
+            "valuation_risk": "中",
+            "detail": "vol27.7%, dd25.9%"
+          }
+        },
+        {
+          "code": "920690",
+          "name": "捷众科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 46.07,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.21
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3809,
+            "max_drawdown": 0.2075,
+            "valuation_risk": "中",
+            "detail": "vol38.1%, dd20.8%"
+          }
+        },
+        {
+          "code": "920593",
+          "name": "鼎智科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 67.53,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 28.51
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.0158,
+            "max_drawdown": 0.1569,
+            "valuation_risk": "中",
+            "detail": "vol1.6%, dd15.7%"
+          }
+        }
+      ],
+      "errors": []
+    },
+    "新能源": {
+      "event": {
+        "event_type": "行业",
+        "benefited_industries": [
+          "光伏",
+          "风电",
+          "储能",
+          "新能源汽车",
+          "锂电池",
+          "充电桩",
+          "特高压",
+          "电网设备"
+        ],
+        "keywords": [
+          "新能源",
+          "碳中和",
+          "清洁能源",
+          "光伏",
+          "风电",
+          "储能",
+          "新能源汽车",
+          "锂电"
+        ],
+        "topic": "新能源"
+      },
+      "chain": [
+        {
+          "name": "上游硅料",
+          "keywords": [
+            "硅料",
+            "多晶硅",
+            "单晶硅"
+          ],
+          "companies": [],
+          "concept": "光伏",
+          "transmission": "装机需求 → 硅料供给 → 电池技术升级 → 组件放量 → 电站建设"
+        },
+        {
+          "name": "中游电池组件",
+          "keywords": [
+            "光伏电池",
+            "组件",
+            "TOPCon",
+            "HJT"
+          ],
+          "companies": [],
+          "concept": "光伏",
+          "transmission": "装机需求 → 硅料供给 → 电池技术升级 → 组件放量 → 电站建设"
+        },
+        {
+          "name": "下游电站",
+          "keywords": [
+            "光伏电站",
+            "EPC",
+            "逆变器"
+          ],
+          "companies": [],
+          "concept": "光伏",
+          "transmission": "装机需求 → 硅料供给 → 电池技术升级 → 组件放量 → 电站建设"
+        },
+        {
+          "name": "上游材料",
+          "keywords": [
+            "锂矿",
+            "正极",
+            "负极",
+            "隔膜",
+            "电解液"
+          ],
+          "companies": [],
+          "concept": "新能源汽车",
+          "transmission": "渗透率提升 → 上游材料涨价 → 电池技术迭代 → 整车放量 → 智能化升级"
+        },
+        {
+          "name": "电池系统",
+          "keywords": [
+            "动力电池",
+            "电池PACK",
+            "电池管理"
+          ],
+          "companies": [],
+          "concept": "新能源汽车",
+          "transmission": "渗透率提升 → 上游材料涨价 → 电池技术迭代 → 整车放量 → 智能化升级"
+        },
+        {
+          "name": "整车制造",
+          "keywords": [
+            "整车",
+            "新能源汽车制造"
+          ],
+          "companies": [],
+          "concept": "新能源汽车",
+          "transmission": "渗透率提升 → 上游材料涨价 → 电池技术迭代 → 整车放量 → 智能化升级"
+        },
+        {
+          "name": "智能驾驶",
+          "keywords": [
+            "智能驾驶",
+            "激光雷达",
+            "域控制器"
+          ],
+          "companies": [],
+          "concept": "新能源汽车",
+          "transmission": "渗透率提升 → 上游材料涨价 → 电池技术迭代 → 整车放量 → 智能化升级"
+        }
+      ],
+      "hypothesis": {
+        "event_type": "行业",
+        "core_logic": "双碳政策 → 上游材料涨价 → 中游制造放量 → 下游应用渗透率提升",
+        "propagation_path": [
+          {
+            "node": "上游材料",
+            "description": "产业链上游材料环节"
+          },
+          {
+            "node": "中游制造",
+            "description": "产业链中游制造环节"
+          },
+          {
+            "node": "下游应用",
+            "description": "产业链下游应用环节"
+          }
+        ],
+        "key_companies": [],
+        "verification_indicators": [
+          "新闻数量",
+          "概念匹配度",
+          "估值水平",
+          "市场关注度"
+        ],
+        "uncertainties": [
+          "政策落地时间不确定",
+          "行业竞争格局可能变化",
+          "需求增速可能不及预期"
+        ]
+      },
+      "concepts": [
+        "TOPCon电池",
+        "HJT电池",
+        "锂矿概念",
+        "动力电池回收",
+        "汽车整车",
+        "激光雷达"
+      ],
+      "report": "# 新能源 研究报告\n\n**事件类型**: 行业景气\n**受益行业**: 光伏、风电、储能、新能源汽车、锂电池、充电桩、特高压、电网设备\n**关键词**: 新能源、碳中和、清洁能源、光伏、风电、储能、新能源汽车、锂电\n\n## 一、影响链分析\n\n> 装机需求 → 硅料供给 → 电池技术升级 → 组件放量 → 电站建设\n\n产业链环节: 上游硅料 → 中游电池组件 → 下游电站 → 上游材料 → 电池系统 → 整车制造 → 智能驾驶\n\n## 二、个股多因子排名\n\n| 排名 | 代码 | 名称 | 综合分 | 事件 | 价值 | 成长 | 市场 | 风险 |\n|---|---|---|---|---|---|---|---|---|\n| 1 | 688551 | 科威尔 | 26.7 | 50.0 | 0.0 | 0.0 | 58.5 | 低 |\n| 2 | 920641 | 格利尔 | 24.2 | 50.0 | 0.0 | 0.0 | 46.1 | 低 |\n| 3 | 688598 | 金博股份 | 24.0 | 50.0 | 0.0 | 0.0 | 45.2 | 低 |\n| 4 | 920770 | 艾能聚 | 24.0 | 50.0 | 0.0 | 0.0 | 44.8 | 低 |\n| 5 | 920689 | 克莱特 | 23.8 | 50.0 | 0.0 | 0.0 | 44.1 | 低 |\n\n## 三、风险提示\n\n- 当前标的整体风险可控\n\n---\n*数据来源: 东方财富(akshare) / 离线缓存包 | 生成时间: 2026-08-01 13:01:48*\n\n> **免责声明**: 本报告由 AI 系统自动生成, 仅作研究参考, 不构成任何投资建议。投资有风险, 入市需谨慎。",
+      "elapsed_ms": 9418,
+      "stock_results": [
+        {
+          "code": "920770",
+          "name": "艾能聚",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 44.81,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.96
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.2055,
+            "max_drawdown": 0.2314,
+            "valuation_risk": "中",
+            "detail": "vol20.5%, dd23.1%"
+          }
+        },
+        {
+          "code": "920689",
+          "name": "克莱特",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 44.14,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.83
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.0579,
+            "max_drawdown": 0.2108,
+            "valuation_risk": "中",
+            "detail": "vol5.8%, dd21.1%"
+          }
+        },
+        {
+          "code": "920641",
+          "name": "格利尔",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 46.07,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.21
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.0446,
+            "max_drawdown": 0.3426,
+            "valuation_risk": "中",
+            "detail": "vol4.5%, dd34.3%"
+          }
+        },
+        {
+          "code": "920476",
+          "name": "海能技术",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 39.54,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 22.91
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1121,
+            "max_drawdown": 0.0458,
+            "valuation_risk": "中",
+            "detail": "vol11.2%, dd4.6%"
+          }
+        },
+        {
+          "code": "920057",
+          "name": "百甲科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 38.69,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 22.74
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.0565,
+            "max_drawdown": 0.182,
+            "valuation_risk": "中",
+            "detail": "vol5.7%, dd18.2%"
+          }
+        },
+        {
+          "code": "688660",
+          "name": "电气风电",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 37.05,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 22.41
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.2098,
+            "max_drawdown": 0.3212,
+            "valuation_risk": "中",
+            "detail": "vol21.0%, dd32.1%"
+          }
+        },
+        {
+          "code": "688599",
+          "name": "天合光能",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 36.53,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 22.31
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.2884,
+            "max_drawdown": 0.3461,
+            "valuation_risk": "中",
+            "detail": "vol28.8%, dd34.6%"
+          }
+        },
+        {
+          "code": "688598",
+          "name": "金博股份",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 45.17,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.03
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3933,
+            "max_drawdown": 0.2568,
+            "valuation_risk": "中",
+            "detail": "vol39.3%, dd25.7%"
+          }
+        },
+        {
+          "code": "688589",
+          "name": "力合微",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 44.14,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.83
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3552,
+            "max_drawdown": 0.2103,
+            "valuation_risk": "中",
+            "detail": "vol35.5%, dd21.0%"
+          }
+        },
+        {
+          "code": "688551",
+          "name": "科威尔",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 58.45,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 26.69
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.0647,
+            "max_drawdown": 0.1556,
+            "valuation_risk": "中",
+            "detail": "vol6.5%, dd15.6%"
+          }
+        }
+      ],
+      "errors": []
+    },
+    "半导体": {
+      "event": {
+        "event_type": "行业",
+        "benefited_industries": [
+          "半导体",
+          "电子元器件",
+          "半导体设备",
+          "半导体材料",
+          "芯片设计"
+        ],
+        "keywords": [
+          "半导体",
+          "芯片",
+          "集成电路",
+          "国产替代",
+          "自主可控"
+        ],
+        "topic": "半导体"
+      },
+      "chain": [
+        {
+          "name": "设备材料",
+          "keywords": [
+            "光刻机",
+            "刻蚀",
+            "半导体设备",
+            "硅片"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "芯片设计",
+          "keywords": [
+            "芯片设计",
+            "GPU",
+            "存储芯片",
+            "SoC"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "制造封测",
+          "keywords": [
+            "晶圆制造",
+            "封测",
+            "代工"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "终端应用",
+          "keywords": [
+            "AI芯片",
+            "汽车芯片",
+            "消费电子"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        }
+      ],
+      "hypothesis": {
+        "event_type": "行业",
+        "core_logic": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发",
+        "propagation_path": [
+          {
+            "node": "设备材料",
+            "description": "产业链设备材料环节"
+          },
+          {
+            "node": "芯片设计",
+            "description": "产业链芯片设计环节"
+          },
+          {
+            "node": "制造封测",
+            "description": "产业链制造封测环节"
+          },
+          {
+            "node": "终端应用",
+            "description": "产业链终端应用环节"
+          }
+        ],
+        "key_companies": [],
+        "verification_indicators": [
+          "新闻数量",
+          "概念匹配度",
+          "估值水平",
+          "市场关注度"
+        ],
+        "uncertainties": [
+          "政策落地时间不确定",
+          "行业竞争格局可能变化",
+          "需求增速可能不及预期"
+        ]
+      },
+      "concepts": [
+        "光刻机",
+        "存储芯片",
+        "AI芯片",
+        "汽车芯片",
+        "消费电子概念"
+      ],
+      "report": "# 半导体 研究报告\n\n**事件类型**: 行业景气\n**受益行业**: 半导体、电子元器件、半导体设备、半导体材料、芯片设计\n**关键词**: 半导体、芯片、集成电路、国产替代、自主可控\n\n## 一、影响链分析\n\n> 需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发\n\n产业链环节: 设备材料 → 芯片设计 → 制造封测 → 终端应用\n\n## 二、个股多因子排名\n\n| 排名 | 代码 | 名称 | 综合分 | 事件 | 价值 | 成长 | 市场 | 风险 |\n|---|---|---|---|---|---|---|---|---|\n| 1 | 688809 | 强一股份 | 28.1 | 50.0 | 0.0 | 0.0 | 65.5 | 低 |\n| 2 | 920249 | 利尔达 | 25.4 | 50.0 | 0.0 | 0.0 | 52.0 | 低 |\n| 3 | 688797 | 臻宝科技 | 25.3 | 50.0 | 0.0 | 0.0 | 51.6 | 低 |\n| 4 | 688727 | 恒坤新材 | 25.1 | 50.0 | 0.0 | 0.0 | 50.3 | 低 |\n| 5 | 920186 | 中科仪 | 24.9 | 50.0 | 0.0 | 0.0 | 49.5 | 低 |\n\n## 三、风险提示\n\n- 当前标的整体风险可控\n\n---\n*数据来源: 东方财富(akshare) / 离线缓存包 | 生成时间: 2026-08-01 13:01:54*\n\n> **免责声明**: 本报告由 AI 系统自动生成, 仅作研究参考, 不构成任何投资建议。投资有风险, 入市需谨慎。",
+      "elapsed_ms": 6725,
+      "stock_results": [
+        {
+          "code": "920249",
+          "name": "利尔达",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 51.96,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 25.39
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.0423,
+            "max_drawdown": 0.0561,
+            "valuation_risk": "中",
+            "detail": "vol4.2%, dd5.6%"
+          }
+        },
+        {
+          "code": "920186",
+          "name": "中科仪",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 49.49,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 24.9
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.361,
+            "max_drawdown": 0.2937,
+            "valuation_risk": "中",
+            "detail": "vol36.1%, dd29.4%"
+          }
+        },
+        {
+          "code": "920139",
+          "name": "华岭股份",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 40.36,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 23.07
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3576,
+            "max_drawdown": 0.3485,
+            "valuation_risk": "中",
+            "detail": "vol35.8%, dd34.8%"
+          }
+        },
+        {
+          "code": "688981",
+          "name": "中芯国际",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 38.64,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 22.73
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3739,
+            "max_drawdown": 0.1741,
+            "valuation_risk": "中",
+            "detail": "vol37.4%, dd17.4%"
+          }
+        },
+        {
+          "code": "688825",
+          "name": "长鑫科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 44.36,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 23.87
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3772,
+            "max_drawdown": 0.2775,
+            "valuation_risk": "中",
+            "detail": "vol37.7%, dd27.8%"
+          }
+        },
+        {
+          "code": "688809",
+          "name": "强一股份",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 65.55,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 28.11
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.2054,
+            "max_drawdown": 0.3159,
+            "valuation_risk": "中",
+            "detail": "vol20.5%, dd31.6%"
+          }
+        },
+        {
+          "code": "688797",
+          "name": "臻宝科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 51.61,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 25.32
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.148,
+            "max_drawdown": 0.1484,
+            "valuation_risk": "中",
+            "detail": "vol14.8%, dd14.8%"
+          }
+        },
+        {
+          "code": "688783",
+          "name": "西安奕材",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 49.31,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 24.86
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.3496,
+            "max_drawdown": 0.0266,
+            "valuation_risk": "中",
+            "detail": "vol35.0%, dd2.7%"
+          }
+        },
+        {
+          "code": "688766",
+          "name": "普冉股份",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 37.25,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 22.45
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.2127,
+            "max_drawdown": 0.3401,
+            "valuation_risk": "中",
+            "detail": "vol21.3%, dd34.0%"
+          }
+        },
+        {
+          "code": "688727",
+          "name": "恒坤新材",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 50.3,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 25.06
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1372,
+            "max_drawdown": 0.0925,
+            "valuation_risk": "中",
+            "detail": "vol13.7%, dd9.2%"
+          }
+        }
+      ],
+      "errors": []
+    },
+    "人工智能": {
+      "event": {
+        "event_type": "行业",
+        "benefited_industries": [
+          "人工智能",
+          "半导体",
+          "云计算",
+          "数据中心",
+          "软件服务",
+          "机器人",
+          "自动驾驶",
+          "消费电子"
+        ],
+        "keywords": [
+          "人工智能",
+          "AI",
+          "大模型",
+          "算力",
+          "芯片",
+          "机器学习",
+          "生成式AI",
+          "AGI"
+        ],
+        "topic": "人工智能"
+      },
+      "chain": [
+        {
+          "name": "算力底座",
+          "keywords": [
+            "算力",
+            "GPU",
+            "数据中心"
+          ],
+          "companies": [],
+          "concept": "人工智能",
+          "transmission": "模型突破 → 算力需求爆发 → 平台成熟 → 应用落地 → 数据服务受益"
+        },
+        {
+          "name": "模型平台",
+          "keywords": [
+            "大模型",
+            "AI平台",
+            "算法"
+          ],
+          "companies": [],
+          "concept": "人工智能",
+          "transmission": "模型突破 → 算力需求爆发 → 平台成熟 → 应用落地 → 数据服务受益"
+        },
+        {
+          "name": "应用场景",
+          "keywords": [
+            "AIGC",
+            "智能体",
+            "AI应用"
+          ],
+          "companies": [],
+          "concept": "人工智能",
+          "transmission": "模型突破 → 算力需求爆发 → 平台成熟 → 应用落地 → 数据服务受益"
+        },
+        {
+          "name": "数据服务",
+          "keywords": [
+            "数据标注",
+            "数据集",
+            "语料"
+          ],
+          "companies": [],
+          "concept": "人工智能",
+          "transmission": "模型突破 → 算力需求爆发 → 平台成熟 → 应用落地 → 数据服务受益"
+        },
+        {
+          "name": "设备材料",
+          "keywords": [
+            "光刻机",
+            "刻蚀",
+            "半导体设备",
+            "硅片"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "芯片设计",
+          "keywords": [
+            "芯片设计",
+            "GPU",
+            "存储芯片",
+            "SoC"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "制造封测",
+          "keywords": [
+            "晶圆制造",
+            "封测",
+            "代工"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "终端应用",
+          "keywords": [
+            "AI芯片",
+            "汽车芯片",
+            "消费电子"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "核心零部件",
+          "keywords": [
+            "减速器",
+            "伺服电机",
+            "丝杠",
+            "轴承"
+          ],
+          "companies": [],
+          "concept": "机器人",
+          "transmission": "产业政策驱动 → 核心零部件突破 → 传感器配套 → 本体量产 → 系统集成落地"
+        },
+        {
+          "name": "传感器",
+          "keywords": [
+            "传感器",
+            "力控",
+            "视觉",
+            "激光雷达"
+          ],
+          "companies": [],
+          "concept": "机器人",
+          "transmission": "产业政策驱动 → 核心零部件突破 → 传感器配套 → 本体量产 → 系统集成落地"
+        },
+        {
+          "name": "本体制造",
+          "keywords": [
+            "人形机器人",
+            "机器人本体",
+            "整机"
+          ],
+          "companies": [],
+          "concept": "机器人",
+          "transmission": "产业政策驱动 → 核心零部件突破 → 传感器配套 → 本体量产 → 系统集成落地"
+        },
+        {
+          "name": "系统集成",
+          "keywords": [
+            "系统集成",
+            "产线",
+            "应用场景"
+          ],
+          "companies": [],
+          "concept": "机器人",
+          "transmission": "产业政策驱动 → 核心零部件突破 → 传感器配套 → 本体量产 → 系统集成落地"
+        },
+        {
+          "name": "上游零部件",
+          "keywords": [
+            "摄像头",
+            "屏幕",
+            "声学",
+            "连接器"
+          ],
+          "companies": [],
+          "concept": "消费电子",
+          "transmission": "新品周期 → 零部件备货 → 模组放量 → 整机出货"
+        },
+        {
+          "name": "中游模组",
+          "keywords": [
+            "模组",
+            "结构件",
+            "PCB"
+          ],
+          "companies": [],
+          "concept": "消费电子",
+          "transmission": "新品周期 → 零部件备货 → 模组放量 → 整机出货"
+        },
+        {
+          "name": "下游整机",
+          "keywords": [
+            "手机",
+            "平板",
+            "TWS",
+            "AI硬件"
+          ],
+          "companies": [],
+          "concept": "消费电子",
+          "transmission": "新品周期 → 零部件备货 → 模组放量 → 整机出货"
+        }
+      ],
+      "hypothesis": {
+        "event_type": "行业",
+        "core_logic": "模型突破 → 算力需求爆发 → 平台成熟 → 应用落地 → 数据服务受益",
+        "propagation_path": [
+          {
+            "node": "算力底座",
+            "description": "产业链算力底座环节"
+          },
+          {
+            "node": "模型平台",
+            "description": "产业链模型平台环节"
+          },
+          {
+            "node": "应用场景",
+            "description": "产业链应用场景环节"
+          },
+          {
+            "node": "数据服务",
+            "description": "产业链数据服务环节"
+          }
+        ],
+        "key_companies": [],
+        "verification_indicators": [
+          "新闻数量",
+          "概念匹配度",
+          "估值水平",
+          "市场关注度"
+        ],
+        "uncertainties": [
+          "政策落地时间不确定",
+          "行业竞争格局可能变化",
+          "需求增速可能不及预期"
+        ]
+      },
+      "concepts": [
+        "人工智能",
+        "算力概念",
+        "数据中心",
+        "AIGC概念",
+        "AI智能体",
+        "AI应用",
+        "AI语料",
+        "光刻机",
+        "存储芯片",
+        "AI芯片",
+        "汽车芯片",
+        "消费电子概念",
+        "机器人概念",
+        "减速器",
+        "传感器",
+        "机器视觉",
+        "激光雷达",
+        "人形机器人",
+        "3D摄像头",
+        "PCB",
+        "AI手机"
+      ],
+      "report": "# 人工智能 研究报告\n\n**事件类型**: 行业景气\n**受益行业**: 人工智能、半导体、云计算、数据中心、软件服务、机器人、自动驾驶、消费电子\n**关键词**: 人工智能、AI、大模型、算力、芯片、机器学习、生成式AI、AGI\n\n## 一、影响链分析\n\n> 模型突破 → 算力需求爆发 → 平台成熟 → 应用落地 → 数据服务受益\n\n产业链环节: 算力底座 → 模型平台 → 应用场景 → 数据服务 → 设备材料 → 芯片设计 → 制造封测 → 终端应用 → 核心零部件 → 传感器 → 本体制造 → 系统集成 → 上游零部件 → 中游模组 → 下游整机\n\n## 二、个股多因子排名\n\n| 排名 | 代码 | 名称 | 综合分 | 事件 | 价值 | 成长 | 市场 | 风险 |\n|---|---|---|---|---|---|---|---|---|\n| 1 | 920021 | 流金科技 | 31.0 | 50.0 | 0.0 | 0.0 | 80.0 | 低 |\n| 2 | 688787 | 海天瑞声 | 31.0 | 50.0 | 0.0 | 0.0 | 80.0 | 低 |\n| 3 | 688228 | 开普云 | 31.0 | 50.0 | 0.0 | 0.0 | 80.0 | 低 |\n| 4 | 688095 | 福昕软件 | 31.0 | 50.0 | 0.0 | 0.0 | 80.0 | 低 |\n| 5 | 688400 | 凌云光 | 30.4 | 50.0 | 0.0 | 0.0 | 77.2 | 低 |\n\n## 三、风险提示\n\n- 当前标的整体风险可控\n\n---\n*数据来源: 东方财富(akshare) / 离线缓存包 | 生成时间: 2026-08-01 13:02:04*\n\n> **免责声明**: 本报告由 AI 系统自动生成, 仅作研究参考, 不构成任何投资建议。投资有风险, 入市需谨慎。",
+      "elapsed_ms": 9627,
+      "stock_results": [
+        {
+          "code": "920493",
+          "name": "并行科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 77.08,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 30.42
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.2209,
+            "max_drawdown": 0.262,
+            "valuation_risk": "中",
+            "detail": "vol22.1%, dd26.2%"
+          }
+        },
+        {
+          "code": "920075",
+          "name": "柏星龙",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 64.48,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 27.9
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.133,
+            "max_drawdown": 0.1234,
+            "valuation_risk": "中",
+            "detail": "vol13.3%, dd12.3%"
+          }
+        },
+        {
+          "code": "920021",
+          "name": "流金科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 80.0,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 31.0
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.3316,
+            "max_drawdown": 0.2163,
+            "valuation_risk": "中",
+            "detail": "vol33.2%, dd21.6%"
+          }
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 80.0,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 31.0
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.0455,
+            "max_drawdown": 0.0372,
+            "valuation_risk": "中",
+            "detail": "vol4.5%, dd3.7%"
+          }
+        },
+        {
+          "code": "688588",
+          "name": "凌志软件",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 58.94,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 26.79
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.1538,
+            "max_drawdown": 0.3147,
+            "valuation_risk": "中",
+            "detail": "vol15.4%, dd31.5%"
+          }
+        },
+        {
+          "code": "688500",
+          "name": "慧辰股份",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 71.54,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 29.31
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.2489,
+            "max_drawdown": 0.0364,
+            "valuation_risk": "中",
+            "detail": "vol24.9%, dd3.6%"
+          }
+        },
+        {
+          "code": "688400",
+          "name": "凌云光",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 77.16,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 30.43
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3567,
+            "max_drawdown": 0.3191,
+            "valuation_risk": "中",
+            "detail": "vol35.7%, dd31.9%"
+          }
+        },
+        {
+          "code": "688292",
+          "name": "浩瀚深度",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 69.25,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 28.85
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.2795,
+            "max_drawdown": 0.251,
+            "valuation_risk": "中",
+            "detail": "vol28.0%, dd25.1%"
+          }
+        },
+        {
+          "code": "688228",
+          "name": "开普云",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 80.0,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 31.0
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1225,
+            "max_drawdown": 0.0722,
+            "valuation_risk": "中",
+            "detail": "vol12.2%, dd7.2%"
+          }
+        },
+        {
+          "code": "688095",
+          "name": "福昕软件",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 80.0,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 31.0
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1334,
+            "max_drawdown": 0.0488,
+            "valuation_risk": "中",
+            "detail": "vol13.3%, dd4.9%"
+          }
+        }
+      ],
+      "errors": []
+    },
+    "新能源汽车": {
+      "event": {
+        "event_type": "行业",
+        "benefited_industries": [
+          "新能源汽车",
+          "动力电池",
+          "充电桩",
+          "锂矿资源",
+          "汽车零部件",
+          "智能驾驶"
+        ],
+        "keywords": [
+          "新能源汽车",
+          "锂电池",
+          "充电基础设施",
+          "碳中和",
+          "智能网联",
+          "渗透率"
+        ],
+        "topic": "新能源汽车"
+      },
+      "chain": [
+        {
+          "name": "上游材料",
+          "keywords": [
+            "锂矿",
+            "正极",
+            "负极",
+            "隔膜",
+            "电解液"
+          ],
+          "companies": [],
+          "concept": "新能源汽车",
+          "transmission": "渗透率提升 → 上游材料涨价 → 电池技术迭代 → 整车放量 → 智能化升级"
+        },
+        {
+          "name": "电池系统",
+          "keywords": [
+            "动力电池",
+            "电池PACK",
+            "电池管理"
+          ],
+          "companies": [],
+          "concept": "新能源汽车",
+          "transmission": "渗透率提升 → 上游材料涨价 → 电池技术迭代 → 整车放量 → 智能化升级"
+        },
+        {
+          "name": "整车制造",
+          "keywords": [
+            "整车",
+            "新能源汽车制造"
+          ],
+          "companies": [],
+          "concept": "新能源汽车",
+          "transmission": "渗透率提升 → 上游材料涨价 → 电池技术迭代 → 整车放量 → 智能化升级"
+        },
+        {
+          "name": "智能驾驶",
+          "keywords": [
+            "智能驾驶",
+            "激光雷达",
+            "域控制器"
+          ],
+          "companies": [],
+          "concept": "新能源汽车",
+          "transmission": "渗透率提升 → 上游材料涨价 → 电池技术迭代 → 整车放量 → 智能化升级"
+        }
+      ],
+      "hypothesis": {
+        "event_type": "行业",
+        "core_logic": "双碳政策 → 上游材料涨价 → 中游制造放量 → 下游应用渗透率提升",
+        "propagation_path": [
+          {
+            "node": "上游材料",
+            "description": "产业链上游材料环节"
+          },
+          {
+            "node": "中游制造",
+            "description": "产业链中游制造环节"
+          },
+          {
+            "node": "下游应用",
+            "description": "产业链下游应用环节"
+          }
+        ],
+        "key_companies": [],
+        "verification_indicators": [
+          "新闻数量",
+          "概念匹配度",
+          "估值水平",
+          "市场关注度"
+        ],
+        "uncertainties": [
+          "政策落地时间不确定",
+          "行业竞争格局可能变化",
+          "需求增速可能不及预期"
+        ]
+      },
+      "concepts": [
+        "锂矿概念",
+        "动力电池回收",
+        "汽车整车",
+        "激光雷达"
+      ],
+      "report": "# 新能源汽车 研究报告\n\n**事件类型**: 行业景气\n**受益行业**: 新能源汽车、动力电池、充电桩、锂矿资源、汽车零部件、智能驾驶\n**关键词**: 新能源汽车、锂电池、充电基础设施、碳中和、智能网联、渗透率\n\n## 一、影响链分析\n\n> 渗透率提升 → 上游材料涨价 → 电池技术迭代 → 整车放量 → 智能化升级\n\n产业链环节: 上游材料 → 电池系统 → 整车制造 → 智能驾驶\n\n## 二、个股多因子排名\n\n| 排名 | 代码 | 名称 | 综合分 | 事件 | 价值 | 成长 | 市场 | 风险 |\n|---|---|---|---|---|---|---|---|---|\n| 1 | 920578 | 巨能股份 | 29.3 | 50.0 | 0.0 | 0.0 | 71.7 | 低 |\n| 2 | 920533 | 骏创科技 | 28.1 | 50.0 | 0.0 | 0.0 | 65.3 | 低 |\n| 3 | 920978 | 开特股份 | 25.0 | 50.0 | 0.0 | 0.0 | 50.1 | 低 |\n| 4 | 920454 | 同心传动 | 24.5 | 50.0 | 0.0 | 0.0 | 47.7 | 低 |\n| 5 | 920469 | 富恒新材 | 24.4 | 50.0 | 0.0 | 0.0 | 46.9 | 低 |\n\n## 三、风险提示\n\n- 当前标的整体风险可控\n\n---\n*数据来源: 东方财富(akshare) / 离线缓存包 | 生成时间: 2026-08-01 13:02:12*\n\n> **免责声明**: 本报告由 AI 系统自动生成, 仅作研究参考, 不构成任何投资建议。投资有风险, 入市需谨慎。",
+      "elapsed_ms": 8034,
+      "stock_results": [
+        {
+          "code": "920978",
+          "name": "开特股份",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 50.12,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 25.02
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3546,
+            "max_drawdown": 0.0987,
+            "valuation_risk": "中",
+            "detail": "vol35.5%, dd9.9%"
+          }
+        },
+        {
+          "code": "920839",
+          "name": "万通液压",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 39.01,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 22.8
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.0292,
+            "max_drawdown": 0.2402,
+            "valuation_risk": "中",
+            "detail": "vol2.9%, dd24.0%"
+          }
+        },
+        {
+          "code": "920833",
+          "name": "美心翼申",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 39.73,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 22.95
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3978,
+            "max_drawdown": 0.2809,
+            "valuation_risk": "中",
+            "detail": "vol39.8%, dd28.1%"
+          }
+        },
+        {
+          "code": "920720",
+          "name": "吉冈精密",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 46.83,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 24.37
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.1285,
+            "max_drawdown": 0.293,
+            "valuation_risk": "中",
+            "detail": "vol12.8%, dd29.3%"
+          }
+        },
+        {
+          "code": "920641",
+          "name": "格利尔",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 46.07,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 24.21
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.0971,
+            "max_drawdown": 0.082,
+            "valuation_risk": "中",
+            "detail": "vol9.7%, dd8.2%"
+          }
+        },
+        {
+          "code": "920578",
+          "name": "巨能股份",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 71.72,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 29.34
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.3323,
+            "max_drawdown": 0.0271,
+            "valuation_risk": "中",
+            "detail": "vol33.2%, dd2.7%"
+          }
+        },
+        {
+          "code": "920533",
+          "name": "骏创科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 65.28,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 28.06
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.0746,
+            "max_drawdown": 0.2118,
+            "valuation_risk": "中",
+            "detail": "vol7.5%, dd21.2%"
+          }
+        },
+        {
+          "code": "920469",
+          "name": "富恒新材",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 46.92,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 24.38
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3568,
+            "max_drawdown": 0.2703,
+            "valuation_risk": "中",
+            "detail": "vol35.7%, dd27.0%"
+          }
+        },
+        {
+          "code": "920454",
+          "name": "同心传动",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 47.69,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 24.54
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.2597,
+            "max_drawdown": 0.135,
+            "valuation_risk": "中",
+            "detail": "vol26.0%, dd13.5%"
+          }
+        },
+        {
+          "code": "920436",
+          "name": "大地电气",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 44.27,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 23.85
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.2779,
+            "max_drawdown": 0.2119,
+            "valuation_risk": "中",
+            "detail": "vol27.8%, dd21.2%"
+          }
+        }
+      ],
+      "errors": []
+    },
+    "光伏": {
+      "event": {
+        "event_type": "行业",
+        "benefited_industries": [
+          "光伏设备",
+          "光伏玻璃",
+          "逆变器",
+          "储能",
+          "光伏电站运营"
+        ],
+        "keywords": [
+          "光伏",
+          "太阳能",
+          "新能源",
+          "硅料",
+          "硅片",
+          "电池组件",
+          "碳中和"
+        ],
+        "topic": "光伏"
+      },
+      "chain": [],
+      "hypothesis": {
+        "event_type": "行业",
+        "core_logic": "装机需求 → 硅料供给 → 电池技术升级 → 组件放量 → 电站建设",
+        "propagation_path": [
+          {
+            "node": "上游硅料",
+            "description": "产业链上游硅料环节"
+          },
+          {
+            "node": "中游电池组件",
+            "description": "产业链中游电池组件环节"
+          },
+          {
+            "node": "下游电站",
+            "description": "产业链下游电站环节"
+          }
+        ],
+        "key_companies": [],
+        "verification_indicators": [
+          "新闻数量",
+          "概念匹配度",
+          "估值水平",
+          "市场关注度"
+        ],
+        "uncertainties": [
+          "政策落地时间不确定",
+          "行业竞争格局可能变化",
+          "需求增速可能不及预期"
+        ]
+      },
+      "concepts": [],
+      "report": "# 光伏 研究报告\n\n**事件类型**: 行业景气\n**受益行业**: 光伏设备、光伏玻璃、逆变器、储能、光伏电站运营\n**关键词**: 光伏、太阳能、新能源、硅料、硅片、电池组件、碳中和\n\n## 一、影响链分析\n\n未匹配到产业链规则。\n\n## 二、个股多因子排名\n\n| 排名 | 代码 | 名称 | 综合分 | 事件 | 价值 | 成长 | 市场 | 风险 |\n|---|---|---|---|---|---|---|---|---|\n| 1 | 920402 | 硅烷科技 | 24.3 | 50.0 | 0.0 | 0.0 | 46.5 | 低 |\n| 2 | 920414 | 欧普泰 | 24.2 | 50.0 | 0.0 | 0.0 | 45.8 | 低 |\n| 3 | 920770 | 艾能聚 | 24.0 | 50.0 | 0.0 | 0.0 | 44.8 | 低 |\n| 4 | 920665 | 科强股份 | 23.7 | 50.0 | 0.0 | 0.0 | 43.7 | 低 |\n| 5 | 920496 | 许昌智能 | 23.7 | 50.0 | 0.0 | 0.0 | 43.7 | 低 |\n\n## 三、风险提示\n\n- 当前标的整体风险可控\n\n---\n*数据来源: 东方财富(akshare) / 离线缓存包 | 生成时间: 2026-08-01 13:02:20*\n\n> **免责声明**: 本报告由 AI 系统自动生成, 仅作研究参考, 不构成任何投资建议。投资有风险, 入市需谨慎。",
+      "elapsed_ms": 7860,
+      "stock_results": [
+        {
+          "code": "920985",
+          "name": "海泰新能",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 42.79,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.56
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.0905,
+            "max_drawdown": 0.2614,
+            "valuation_risk": "中",
+            "detail": "vol9.0%, dd26.1%"
+          }
+        },
+        {
+          "code": "920770",
+          "name": "艾能聚",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 44.81,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.96
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.1019,
+            "max_drawdown": 0.3054,
+            "valuation_risk": "中",
+            "detail": "vol10.2%, dd30.5%"
+          }
+        },
+        {
+          "code": "920682",
+          "name": "球冠电缆",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 37.34,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 22.47
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.0791,
+            "max_drawdown": 0.0953,
+            "valuation_risk": "中",
+            "detail": "vol7.9%, dd9.5%"
+          }
+        },
+        {
+          "code": "920665",
+          "name": "科强股份",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 43.69,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.74
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.3045,
+            "max_drawdown": 0.1034,
+            "valuation_risk": "中",
+            "detail": "vol30.4%, dd10.3%"
+          }
+        },
+        {
+          "code": "920570",
+          "name": "坤博精工",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 39.27,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 22.85
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.0414,
+            "max_drawdown": 0.0958,
+            "valuation_risk": "中",
+            "detail": "vol4.1%, dd9.6%"
+          }
+        },
+        {
+          "code": "920496",
+          "name": "许昌智能",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 43.69,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.74
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1663,
+            "max_drawdown": 0.102,
+            "valuation_risk": "中",
+            "detail": "vol16.6%, dd10.2%"
+          }
+        },
+        {
+          "code": "920414",
+          "name": "欧普泰",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 45.84,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.17
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1013,
+            "max_drawdown": 0.1441,
+            "valuation_risk": "中",
+            "detail": "vol10.1%, dd14.4%"
+          }
+        },
+        {
+          "code": "920402",
+          "name": "硅烷科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 46.52,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.3
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3913,
+            "max_drawdown": 0.0436,
+            "valuation_risk": "中",
+            "detail": "vol39.1%, dd4.4%"
+          }
+        },
+        {
+          "code": "920368",
+          "name": "连城数控",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 40.49,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.1
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1902,
+            "max_drawdown": 0.0564,
+            "valuation_risk": "中",
+            "detail": "vol19.0%, dd5.6%"
+          }
+        },
+        {
+          "code": "920300",
+          "name": "辰光医疗",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 41.8,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.36
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.2829,
+            "max_drawdown": 0.282,
+            "valuation_risk": "中",
+            "detail": "vol28.3%, dd28.2%"
+          }
+        }
+      ],
+      "errors": []
+    },
+    "军工": {
+      "event": {
+        "event_type": "行业",
+        "benefited_industries": [
+          "国防军工",
+          "航空航天",
+          "军工电子",
+          "新材料",
+          "信息化"
+        ],
+        "keywords": [
+          "军工",
+          "国防开支",
+          "装备升级",
+          "国企改革",
+          "订单放量"
+        ],
+        "topic": "军工"
+      },
+      "chain": [],
+      "hypothesis": {
+        "event_type": "行业",
+        "core_logic": "国防预算 → 上游材料 → 中游部件 → 下游整机列装",
+        "propagation_path": [
+          {
+            "node": "上游材料",
+            "description": "产业链上游材料环节"
+          },
+          {
+            "node": "中游部件",
+            "description": "产业链中游部件环节"
+          },
+          {
+            "node": "下游整机",
+            "description": "产业链下游整机环节"
+          }
+        ],
+        "key_companies": [],
+        "verification_indicators": [
+          "新闻数量",
+          "概念匹配度",
+          "估值水平",
+          "市场关注度"
+        ],
+        "uncertainties": [
+          "政策落地时间不确定",
+          "行业竞争格局可能变化",
+          "需求增速可能不及预期"
+        ]
+      },
+      "concepts": [],
+      "report": "# 军工 研究报告\n\n**事件类型**: 行业景气\n**受益行业**: 国防军工、航空航天、军工电子、新材料、信息化\n**关键词**: 军工、国防开支、装备升级、国企改革、订单放量\n\n## 一、影响链分析\n\n未匹配到产业链规则。\n\n## 二、个股多因子排名\n\n| 排名 | 代码 | 名称 | 综合分 | 事件 | 价值 | 成长 | 市场 | 风险 |\n|---|---|---|---|---|---|---|---|---|\n| 1 | 920961 | 创远信科 | 25.9 | 50.0 | 0.0 | 0.0 | 54.5 | 低 |\n| 2 | 920885 | 星辰科技 | 24.6 | 50.0 | 0.0 | 0.0 | 48.0 | 低 |\n| 3 | 920690 | 捷众科技 | 24.2 | 50.0 | 0.0 | 0.0 | 46.1 | 低 |\n| 4 | 920641 | 格利尔 | 24.2 | 50.0 | 0.0 | 0.0 | 46.1 | 低 |\n| 5 | 920640 | 富士达 | 23.9 | 50.0 | 0.0 | 0.0 | 44.5 | 低 |\n\n## 三、风险提示\n\n- 当前标的整体风险可控\n\n---\n*数据来源: 东方财富(akshare) / 离线缓存包 | 生成时间: 2026-08-01 13:02:27*\n\n> **免责声明**: 本报告由 AI 系统自动生成, 仅作研究参考, 不构成任何投资建议。投资有风险, 入市需谨慎。",
+      "elapsed_ms": 7489,
+      "stock_results": [
+        {
+          "code": "920961",
+          "name": "创远信科",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 54.49,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 25.9
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.229,
+            "max_drawdown": 0.0439,
+            "valuation_risk": "中",
+            "detail": "vol22.9%, dd4.4%"
+          }
+        },
+        {
+          "code": "920885",
+          "name": "星辰科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 48.05,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.61
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.0177,
+            "max_drawdown": 0.1024,
+            "valuation_risk": "中",
+            "detail": "vol1.8%, dd10.2%"
+          }
+        },
+        {
+          "code": "920839",
+          "name": "万通液压",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 39.01,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 22.8
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.2389,
+            "max_drawdown": 0.0612,
+            "valuation_risk": "中",
+            "detail": "vol23.9%, dd6.1%"
+          }
+        },
+        {
+          "code": "920781",
+          "name": "瑞奇智造",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 42.56,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.51
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1931,
+            "max_drawdown": 0.0709,
+            "valuation_risk": "中",
+            "detail": "vol19.3%, dd7.1%"
+          }
+        },
+        {
+          "code": "920690",
+          "name": "捷众科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 46.07,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.21
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.0544,
+            "max_drawdown": 0.0839,
+            "valuation_risk": "中",
+            "detail": "vol5.4%, dd8.4%"
+          }
+        },
+        {
+          "code": "920682",
+          "name": "球冠电缆",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 37.34,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 22.47
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.1874,
+            "max_drawdown": 0.268,
+            "valuation_risk": "中",
+            "detail": "vol18.7%, dd26.8%"
+          }
+        },
+        {
+          "code": "920642",
+          "name": "通易航天",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 42.65,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.53
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.1675,
+            "max_drawdown": 0.3238,
+            "valuation_risk": "中",
+            "detail": "vol16.8%, dd32.4%"
+          }
+        },
+        {
+          "code": "920641",
+          "name": "格利尔",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 46.07,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 24.21
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.165,
+            "max_drawdown": 0.2642,
+            "valuation_risk": "中",
+            "detail": "vol16.5%, dd26.4%"
+          }
+        },
+        {
+          "code": "920640",
+          "name": "富士达",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 44.45,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 23.89
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.1188,
+            "max_drawdown": 0.1725,
+            "valuation_risk": "中",
+            "detail": "vol11.9%, dd17.2%"
+          }
+        },
+        {
+          "code": "920519",
+          "name": "万德股份",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 35.9,
+            "event_strength": 74.0,
+            "chain_position": 70.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 68.6,
+            "composite": 22.18
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.2928,
+            "max_drawdown": 0.1593,
+            "valuation_risk": "中",
+            "detail": "vol29.3%, dd15.9%"
+          }
+        }
+      ],
+      "errors": []
+    },
+    "消费电子": {
+      "event": {
+        "event_type": "行业",
+        "benefited_industries": [
+          "消费电子",
+          "半导体",
+          "电子元器件",
+          "光学光电子",
+          "智能制造"
+        ],
+        "keywords": [
+          "消费电子",
+          "智能手机",
+          "可穿戴设备",
+          "产业链",
+          "电子产品"
+        ],
+        "topic": "消费电子"
+      },
+      "chain": [
+        {
+          "name": "上游零部件",
+          "keywords": [
+            "摄像头",
+            "屏幕",
+            "声学",
+            "连接器"
+          ],
+          "companies": [],
+          "concept": "消费电子",
+          "transmission": "新品周期 → 零部件备货 → 模组放量 → 整机出货"
+        },
+        {
+          "name": "中游模组",
+          "keywords": [
+            "模组",
+            "结构件",
+            "PCB"
+          ],
+          "companies": [],
+          "concept": "消费电子",
+          "transmission": "新品周期 → 零部件备货 → 模组放量 → 整机出货"
+        },
+        {
+          "name": "下游整机",
+          "keywords": [
+            "手机",
+            "平板",
+            "TWS",
+            "AI硬件"
+          ],
+          "companies": [],
+          "concept": "消费电子",
+          "transmission": "新品周期 → 零部件备货 → 模组放量 → 整机出货"
+        },
+        {
+          "name": "设备材料",
+          "keywords": [
+            "光刻机",
+            "刻蚀",
+            "半导体设备",
+            "硅片"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "芯片设计",
+          "keywords": [
+            "芯片设计",
+            "GPU",
+            "存储芯片",
+            "SoC"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "制造封测",
+          "keywords": [
+            "晶圆制造",
+            "封测",
+            "代工"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        },
+        {
+          "name": "终端应用",
+          "keywords": [
+            "AI芯片",
+            "汽车芯片",
+            "消费电子"
+          ],
+          "companies": [],
+          "concept": "半导体",
+          "transmission": "需求复苏 → 设备材料先行 → 芯片设计放量 → 制造封测满载 → 终端应用爆发"
+        }
+      ],
+      "hypothesis": {
+        "event_type": "行业",
+        "core_logic": "新品周期 → 零部件备货 → 模组放量 → 整机出货",
+        "propagation_path": [
+          {
+            "node": "上游零部件",
+            "description": "产业链上游零部件环节"
+          },
+          {
+            "node": "中游模组",
+            "description": "产业链中游模组环节"
+          },
+          {
+            "node": "下游整机",
+            "description": "产业链下游整机环节"
+          }
+        ],
+        "key_companies": [],
+        "verification_indicators": [
+          "新闻数量",
+          "概念匹配度",
+          "估值水平",
+          "市场关注度"
+        ],
+        "uncertainties": [
+          "政策落地时间不确定",
+          "行业竞争格局可能变化",
+          "需求增速可能不及预期"
+        ]
+      },
+      "concepts": [
+        "3D摄像头",
+        "PCB",
+        "AI手机",
+        "光刻机",
+        "存储芯片",
+        "AI芯片",
+        "汽车芯片",
+        "消费电子概念"
+      ],
+      "report": "# 消费电子 研究报告\n\n**事件类型**: 行业景气\n**受益行业**: 消费电子、半导体、电子元器件、光学光电子、智能制造\n**关键词**: 消费电子、智能手机、可穿戴设备、产业链、电子产品\n\n## 一、影响链分析\n\n> 新品周期 → 零部件备货 → 模组放量 → 整机出货\n\n产业链环节: 上游零部件 → 中游模组 → 下游整机 → 设备材料 → 芯片设计 → 制造封测 → 终端应用\n\n## 二、个股多因子排名\n\n| 排名 | 代码 | 名称 | 综合分 | 事件 | 价值 | 成长 | 市场 | 风险 |\n|---|---|---|---|---|---|---|---|---|\n| 1 | 920125 | 鸿仕达 | 31.0 | 50.0 | 0.0 | 0.0 | 80.0 | 低 |\n| 2 | 920021 | 流金科技 | 31.0 | 50.0 | 0.0 | 0.0 | 80.0 | 低 |\n| 3 | 688811 | 有研复材 | 26.9 | 50.0 | 0.0 | 0.0 | 59.3 | 低 |\n| 4 | 920178 | 锐翔智能 | 26.7 | 50.0 | 0.0 | 0.0 | 58.7 | 低 |\n| 5 | 920212 | 智新电子 | 25.4 | 50.0 | 0.0 | 0.0 | 52.2 | 低 |\n\n## 三、风险提示\n\n- 当前标的整体风险可控\n\n---\n*数据来源: 东方财富(akshare) / 离线缓存包 | 生成时间: 2026-08-01 13:02:33*\n\n> **免责声明**: 本报告由 AI 系统自动生成, 仅作研究参考, 不构成任何投资建议。投资有风险, 入市需谨慎。",
+      "elapsed_ms": 6168,
+      "stock_results": [
+        {
+          "code": "920212",
+          "name": "智新电子",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 52.23,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 25.45
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1764,
+            "max_drawdown": 0.0386,
+            "valuation_risk": "中",
+            "detail": "vol17.6%, dd3.9%"
+          }
+        },
+        {
+          "code": "920190",
+          "name": "雷神科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 51.74,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 25.35
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.2869,
+            "max_drawdown": 0.1089,
+            "valuation_risk": "中",
+            "detail": "vol28.7%, dd10.9%"
+          }
+        },
+        {
+          "code": "920178",
+          "name": "锐翔智能",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 58.71,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 26.74
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1987,
+            "max_drawdown": 0.0223,
+            "valuation_risk": "中",
+            "detail": "vol19.9%, dd2.2%"
+          }
+        },
+        {
+          "code": "920125",
+          "name": "鸿仕达",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 80.0,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 31.0
+          },
+          "risk": {
+            "risk_level": "低",
+            "volatility": 0.1308,
+            "max_drawdown": 0.1081,
+            "valuation_risk": "中",
+            "detail": "vol13.1%, dd10.8%"
+          }
+        },
+        {
+          "code": "920065",
+          "name": "千岸科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 38.39,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 22.68
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.3613,
+            "max_drawdown": 0.3092,
+            "valuation_risk": "中",
+            "detail": "vol36.1%, dd30.9%"
+          }
+        },
+        {
+          "code": "920021",
+          "name": "流金科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 80.0,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 31.0
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.0671,
+            "max_drawdown": 0.2602,
+            "valuation_risk": "中",
+            "detail": "vol6.7%, dd26.0%"
+          }
+        },
+        {
+          "code": "688811",
+          "name": "有研复材",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 59.3,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 26.86
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.2067,
+            "max_drawdown": 0.1598,
+            "valuation_risk": "中",
+            "detail": "vol20.7%, dd16.0%"
+          }
+        },
+        {
+          "code": "688793",
+          "name": "倍轻松",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 47.42,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 24.48
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.399,
+            "max_drawdown": 0.08,
+            "valuation_risk": "中",
+            "detail": "vol39.9%, dd8.0%"
+          }
+        },
+        {
+          "code": "688766",
+          "name": "普冉股份",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 37.25,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 22.45
+          },
+          "risk": {
+            "risk_level": "高",
+            "volatility": 0.0843,
+            "max_drawdown": 0.2553,
+            "valuation_risk": "中",
+            "detail": "vol8.4%, dd25.5%"
+          }
+        },
+        {
+          "code": "688608",
+          "name": "恒玄科技",
+          "factors": {
+            "event": 50.0,
+            "value": 0.0,
+            "growth": 0.0,
+            "market": 45.44,
+            "event_strength": 74.0,
+            "chain_position": 100.0,
+            "logic_certainty": 60.0,
+            "event_logic_composite": 77.6,
+            "composite": 24.09
+          },
+          "risk": {
+            "risk_level": "中",
+            "volatility": 0.2498,
+            "max_drawdown": 0.1028,
+            "valuation_risk": "中",
+            "detail": "vol25.0%, dd10.3%"
+          }
+        }
+      ],
+      "errors": []
+    }
+  }
+}

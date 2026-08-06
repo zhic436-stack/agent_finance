@@ -1,0 +1,62 @@
+[
+  {
+    "topic": "低空经济",
+    "success": true,
+    "elapsed": 23.88,
+    "llm_calls": 3
+  },
+  {
+    "topic": "AI算力",
+    "success": true,
+    "elapsed": 10.71,
+    "llm_calls": 3
+  },
+  {
+    "topic": "机器人",
+    "success": true,
+    "elapsed": 23.83,
+    "llm_calls": 3
+  },
+  {
+    "topic": "新能源",
+    "success": true,
+    "elapsed": 13.65,
+    "llm_calls": 3
+  },
+  {
+    "topic": "半导体",
+    "success": true,
+    "elapsed": 23.48,
+    "llm_calls": 3
+  },
+  {
+    "topic": "人工智能",
+    "success": true,
+    "elapsed": 15.73,
+    "llm_calls": 3
+  },
+  {
+    "topic": "新能源汽车",
+    "success": true,
+    "elapsed": 12.68,
+    "llm_calls": 3
+  },
+  {
+    "topic": "光伏",
+    "success": true,
+    "elapsed": 23.51,
+    "llm_calls": 3
+  },
+  {
+    "topic": "军工",
+    "success": true,
+    "elapsed": 23.85,
+    "llm_calls": 3
+  },
+  {
+    "topic": "消费电子",
+    "success": true,
+    "elapsed": 16.83,
+    "llm_calls": 3
+  }
+]

@@ -1,0 +1,8 @@
+环境变量检查:
+  ASCEND_API_KEY: ✅ z5stpY***v2jo
+  ASCEND_ACCESS_KEY: ✅ z5stpY***v2jo
+  ASCEND_API_BASE: https://api-ai.gitcode.com/v1
+  ASCEND_MODEL: zai-org/GLM-5.2
+  LOG_LEVEL: ⚪ 未设置(使用默认值)
+  CACHE_TTL: ⚪ 未设置(使用默认值)
+  DEMO_DATA_FALLBACK: 0

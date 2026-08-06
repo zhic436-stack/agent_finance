@@ -1,0 +1,19 @@
+AI算力: ok=True 0.0s
+低空经济: ok=True 0.0s
+半导体: ok=True 8.9s
+新能源: ok=True 0.0s
+新能源: ok=True 0.0s
+机器人: ok=True 0.0s
+AI算力: ok=True 0.0s
+军工: ok=True 5.3s
+AI算力: ok=True 0.0s
+消费电子: ok=True 8.3s
+新能源汽车: ok=True 6.9s
+低空经济: ok=True 0.0s
+低空经济: ok=True 0.0s
+AI算力: ok=True 0.0s
+新能源: ok=True 0.0s
+
+内存: 起始20.2MB -> 结束41.5MB (增长21.3MB)
+成功率: 100.0%
+异常注入: [{'case': '空话题', 'crash': False, 'has_report': True}, {'case': '未知话题', 'crash': False, 'has_report': True}, {'case': '空白', 'crash': False, 'has_report': True}, {'case': '超长话题', 'crash': False, 'has_report': True}, {'case': 'None话题', 'crash': False, 'has_report': True}]

@@ -1,0 +1,26 @@
+=== 差距分析 (冲刺包 Phase 0) ===
+
+1. 缺失 API (需补实现):
+   - pipeline.run_analysis_cached (缓存版分析)
+   - pipeline.compare_topics (多话题对比)
+   - pipeline.aggregate_topics (多话题聚合)
+   - llm.async_chat_completion (异步 LLM)
+
+2. UI 样式:
+   - ui/components/styles.py 不存在, 需补 CSS 类 (glass-card/card-3d/pulse-loader/neon-switch)
+   - 影响链图降级为纯文本, 可加 graphviz 增强
+
+3. 财务数据:
+   - financial_demo_data 是演示数据, 需尝试真实 akshare 数据填充 Top 股票
+   - 需标注数据日期
+
+4. 测试:
+   - 缺契约测试 test_contract.py / test_dataflow.py (冲刺包要求)
+   - test_final 已有全链路
+
+5. 冗余/待清理:
+   - docs/screenshots 有空态旧截图 (已有结果图, 可清理)
+   - 旧 demo_state v1 被 v2 覆盖 (正常)
+
+6. 稳定性:
+   - 50h 常驻监控受会话边界限制, 用压缩压测替代 (多轮+内存+异常注入)

@@ -1,0 +1,28 @@
+streamlit>=1.55
+akshare>=1.16
+pandas>=2.0
+numpy>=1.26
+plotly>=5.0
+pydantic>=2.0
+requests>=2.28
+psutil>=5.9
+pyecharts>=2.0
+st-aggrid>=1.0
+PyPortfolioOpt>=1.6
+pytest>=7.0
+playwright>=1.40
+cvxpy>=1.4
+scipy>=1.10
+scikit-learn>=1.0
+
+quantstats>=1.0
+Riskfolio-Lib>=1.0
+pandas-ta>=1.0
+
+# 核心数据链路: 东财 TLS 风控必须用 curl_cffi (data_collector 顶层硬依赖, 缺了会崩)
+curl_cffi>=0.7
+# 配置加载与可选降级包 (config/llm/impact_chain/scheduler 依赖)
+python-dotenv>=1.0
+json-repair>=0.25
+graphviz>=0.20
+schedule>=1.2
