@@ -14,9 +14,7 @@ cvxpy>=1.4
 scipy>=1.10
 scikit-learn>=1.0
 
-quantstats>=1.0
 Riskfolio-Lib>=1.0
-pandas-ta>=1.0
 
 # 核心数据链路: 东财 TLS 风控必须用 curl_cffi (data_collector 顶层硬依赖, 缺了会崩)
 curl_cffi>=0.7
@@ -28,3 +26,7 @@ schedule>=1.2
 
 # 可选 UI 增强 (st-aggrid 交互表格): 部分 pip 镜像无此包, 缺失时自动降级 st.dataframe
 # st-aggrid>=1.0
+
+# 可选依赖 (环境缺失时自动降级, 不阻塞安装):
+# pandas-ta (技术指标; factor_engine 缺失时返回 None)
+# quantstats (绩效报告; 当前代码未调用)
