@@ -3,22 +3,32 @@
 > GitCode Notebook 每次启动是**全新的空环境**（不持久化），不会自动包含仓库内容。
 > 在空白 Notebook 中粘贴下方代码并运行，即可一步完成：拉取源码 → 装依赖 → 昇腾 NPU 检测 → 昇腾加速验证 → 真实分析跑通。
 
-## 一键全自动代码（粘贴到 Notebook 第一个单元格，点 ▶ 运行）
+## 一键全自动代码 v2（推荐）
+
+**更新内容**：① 每次运行强制删除旧目录重新 clone（避免旧代码缓存问题）；② 默认 pip 源失败时自动切换清华镜像重试。
 
 ```python
-# ===== 金融研究 Agent: 5 步全自动跑通 =====
-import subprocess, os, sys, time
+# ===== 金融研究 Agent: 5 步全自动跑通 (v2 强制刷新版) =====
+import subprocess, os, sys, time, shutil
 
 REPO = "https://gitcode.com/zhichen1024/agent_finance.git"
 
-# 1. 拉取源码
-if not os.path.exists("agent_finance"):
-    subprocess.run(["git", "clone", "--depth", "1", REPO], check=True)
+# 1. 拉取源码 (强制刷新: 删除旧目录, 确保拿到最新代码)
+if os.path.exists("agent_finance"):
+    shutil.rmtree("agent_finance", ignore_errors=True)
+subprocess.run(["git", "clone", "--depth", "1", REPO], check=True)
 os.chdir("agent_finance")
-print("✔ 1/5 源码已拉取")
+print("✔ 1/5 源码已拉取 (最新版)")
 
-# 2. 安装依赖
-subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-r", "requirements.txt"], check=True)
+# 2. 安装依赖 (默认源失败自动切清华镜像)
+def pip_install(args):
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", *args], check=True)
+
+try:
+    pip_install(["-r", "requirements.txt"])
+except subprocess.CalledProcessError:
+    print("默认源失败, 切换到清华镜像重试...")
+    pip_install(["-i", "https://pypi.tuna.tsinghua.edu.cn/simple", "-r", "requirements.txt"])
 print("✔ 2/5 依赖已安装")
 
 # 3. 昇腾环境检测
@@ -53,9 +63,10 @@ print("\n🎉 全部跑通! 详细演示: notebooks/金融研究Agent_昇腾NPU�
 ## 手动方式（等价）
 
 ```bash
+rm -rf agent_finance
 git clone https://gitcode.com/zhichen1024/agent_finance.git
 cd agent_finance
-pip install -r requirements.txt
+pip install -r requirements.txt || pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 # 打开 notebooks/金融研究Agent_昇腾NPU跑通.ipynb 并全部运行
 ```
 
