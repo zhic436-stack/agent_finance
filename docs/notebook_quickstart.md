@@ -3,33 +3,48 @@
 > GitCode Notebook 每次启动是**全新的空环境**（不持久化），不会自动包含仓库内容。
 > 在空白 Notebook 中粘贴下方代码并运行，即可一步完成：拉取源码 → 装依赖 → 昇腾 NPU 检测 → 昇腾加速验证 → 真实分析跑通。
 
-## 一键全自动代码 v2（推荐）
+## 一键全自动代码 v3（推荐）
 
-**更新内容**：① 每次运行强制删除旧目录重新 clone（避免旧代码缓存问题）；② 默认 pip 源失败时自动切换清华镜像重试。
+**v3 更新**：① 先装**核心小包**（pandas/numpy/curl_cffi 等 7 个，1 分钟内跑通演示），再尝试完整 requirements（大包如 playwright/cvxpy 装得慢或镜像缺失时**只警告不阻塞**）；② pip 加超时保护，不再无限卡住。
 
 ```python
-# ===== 金融研究 Agent: 5 步全自动跑通 (v2 强制刷新版) =====
+# ===== 金融研究 Agent: 5 步全自动跑通 (v3 核心优先版) =====
 import subprocess, os, sys, time, shutil
 
 REPO = "https://gitcode.com/zhichen1024/agent_finance.git"
 
-# 1. 拉取源码 (强制刷新: 删除旧目录, 确保拿到最新代码)
+# 1. 拉取源码 (强制刷新, 确保最新代码)
 if os.path.exists("agent_finance"):
     shutil.rmtree("agent_finance", ignore_errors=True)
 subprocess.run(["git", "clone", "--depth", "1", REPO], check=True)
 os.chdir("agent_finance")
 print("✔ 1/5 源码已拉取 (最新版)")
 
-# 2. 安装依赖 (默认源失败自动切清华镜像)
+# 2a. 核心依赖 (7 个小包, 1 分钟内; 核心链路唯一硬依赖是 curl_cffi, 其余都有降级)
 def pip_install(args):
-    subprocess.run([sys.executable, "-m", "pip", "install", "-q", *args], check=True)
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "--progress-bar", "off", "--timeout", "60", *args], check=True)
 
+CORE = ["pandas", "numpy", "curl_cffi", "python-dotenv", "json-repair", "schedule", "graphviz"]
+print("正在安装核心依赖 (约1分钟, 请稍候)...")
 try:
-    pip_install(["-r", "requirements.txt"])
+    pip_install(CORE)
 except subprocess.CalledProcessError:
-    print("默认源失败, 切换到清华镜像重试...")
-    pip_install(["-i", "https://pypi.tuna.tsinghua.edu.cn/simple", "-r", "requirements.txt"])
-print("✔ 2/5 依赖已安装")
+    print("默认源失败, 切清华镜像重试...")
+    pip_install(["-i", "https://pypi.tuna.tsinghua.edu.cn/simple", *CORE])
+print("✔ 核心依赖已安装")
+
+# 2b. 完整依赖 (可跳过; 失败仅警告, 不影响核心演示)
+try:
+    print("尝试安装完整依赖 (playwright/cvxpy 等大包, 可能较慢)...")
+    pip_install(["-r", "requirements.txt"])
+    print("✔ 完整依赖已安装")
+except subprocess.CalledProcessError:
+    try:
+        pip_install(["-i", "https://pypi.tuna.tsinghua.edu.cn/simple", "-r", "requirements.txt"])
+        print("✔ 完整依赖已安装 (清华镜像)")
+    except subprocess.CalledProcessError as e:
+        print("⚠ 完整依赖未完全安装 (不影响核心链路演示):", str(e)[-120:])
+print("✔ 2/5 依赖阶段结束")
 
 # 3. 昇腾环境检测
 try:
@@ -51,7 +66,7 @@ try:
 except Exception as e:
     print("✔ 4/5 昇腾模块降级 numpy:", type(e).__name__)
 
-# 5. 真实分析跑通
+# 5. 真实分析跑通 (核心链路, 无需 LLM Key; 行情失败自动用仓库离线数据)
 from src.pipeline import run_analysis
 t0 = time.time()
 r = run_analysis("低空经济", use_llm=False, enrich_market=False)
@@ -66,7 +81,8 @@ print("\n🎉 全部跑通! 详细演示: notebooks/金融研究Agent_昇腾NPU�
 rm -rf agent_finance
 git clone https://gitcode.com/zhichen1024/agent_finance.git
 cd agent_finance
-pip install -r requirements.txt || pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+pip install pandas numpy curl_cffi python-dotenv json-repair schedule graphviz   # 核心, 必装
+pip install -r requirements.txt || pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt  # 完整, 可选
 # 打开 notebooks/金融研究Agent_昇腾NPU跑通.ipynb 并全部运行
 ```
 
