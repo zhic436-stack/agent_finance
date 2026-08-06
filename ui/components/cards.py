@@ -12,7 +12,13 @@ from typing import Any, Dict, List
 
 import pandas as pd
 import streamlit as st
-from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, JsCode
+
+try:  # st-aggrid 为可选增强依赖; 部分 pip 镜像/环境无此包时降级为原生表格
+    from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, JsCode
+    _HAS_AGGRID = True
+except Exception:  # noqa: BLE001
+    AgGrid = GridOptionsBuilder = GridUpdateMode = JsCode = None
+    _HAS_AGGRID = False
 
 # 风险等级 -> 颜色
 _RISK_COLOR = {
@@ -27,7 +33,7 @@ _COMPOSITE_CELL_STYLE = JsCode("""
 function(params) {
   return '<span style="color:#1f77b4;font-weight:bold">' + params.value + '</span>';
 }
-""")
+""") if _HAS_AGGRID else None
 
 # 风险列颜色渲染 (AgGrid cellRenderer JS, 返回 HTML 字符串避免 React error)
 _RISK_CELL_STYLE = JsCode("""
@@ -40,7 +46,7 @@ function(params) {
   const c = colors[params.value] || '#888888';
   return '<span style="color:' + c + ';font-weight:bold">' + params.value + '</span>';
 }
-""")
+""") if _HAS_AGGRID else None
 
 
 def render_stock_table(rows: List[Dict[str, Any]]) -> None:
@@ -69,6 +75,11 @@ def render_stock_table(rows: List[Dict[str, Any]]) -> None:
             "估值": _VALUATION_CN.get(risk.get("valuation_risk", ""), "未知"),
         })
     df = pd.DataFrame(table)
+
+    if not _HAS_AGGRID:
+        # 降级: 环境无 st-aggrid 时用原生表格 (功能等价, 列可排序)
+        st.dataframe(df, height=420, use_container_width=True)
+        return
 
     gb = GridOptionsBuilder.from_dataframe(df)
     # 所有列可排序/筛选/调整宽度

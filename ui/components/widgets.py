@@ -6,12 +6,22 @@ from html import escape
 
 import streamlit as st
 import pandas as pd
-from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, JsCode
+
+try:  # st-aggrid 为可选增强依赖; 环境缺失时降级为原生表格
+    from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, JsCode
+    _HAS_AGGRID = True
+except Exception:  # noqa: BLE001
+    AgGrid = GridOptionsBuilder = GridUpdateMode = JsCode = None
+    _HAS_AGGRID = False
 
 
 def render_risk_table(data: list, key="risk_table"):
     """Enterprise data table with sort/filter/color markers."""
     df = pd.DataFrame(data)
+    if not _HAS_AGGRID:
+        # 降级: 无 st-aggrid 环境用原生表格
+        st.dataframe(df, use_container_width=True)
+        return None
     gb = GridOptionsBuilder.from_dataframe(df)
     gb.configure_default_column(
         sortable=True, filter=True, resizable=True,
