@@ -55,7 +55,7 @@ parse_event → deduce_industry_chain → find_matching_concepts
 - **过程可观测**：事件分析页底部"执行轨迹"展示每一步工具调用
 - 提示：Agent 模式较慢（每轮 LLM 响应数秒~数十秒）；预置主题默认走演示缓存，秒开
 
-## 🔧 昇腾技术栈（合规）
+## 🔧 昇腾技术栈
 
 - **昇腾云 LLM 推理**：事件解析 / Agent 决策 / 报告生成调用昇腾云大模型 API（`ASCEND_API_BASE`，GLM-5.2 on Ascend）
 - **MindSpore 计算层**：`src/ascend_accel.py` 用昇腾原生框架 MindSpore 实现协方差/归一化，昇腾环境自动启用 NPU（本机 numpy 降级，结果一致）
