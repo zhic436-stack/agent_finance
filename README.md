@@ -79,7 +79,7 @@
 |---|---|
 | ![风险分布](docs/screenshots/05_风险分布.png) | ![策略回测](docs/screenshots/06_策略回测.png) |
 
-> 📽️ 演示视频：[金融研究 Agent 演示录屏（2 分半）](https://github.com/zhic436-stack/agent_finance/releases/download/v1.0.0-demo/demo_video_2min30s.mp4)
+> 📽️ 演示视频：[金融研究 Agent 演示录屏（2 分半）](https://gitcode.com/zhichen1024/agent_finance/blob/main/docs/demo_video_auto.webm)（GitCode 国内直连；[GitHub 镜像](https://github.com/zhic436-stack/agent_finance/releases/download/v1.0.0-demo/demo_video_2min30s.mp4)）
 
 ## 🖥️ 快速开始
 

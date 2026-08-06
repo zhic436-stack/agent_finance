@@ -21,6 +21,6 @@ data/financial_cache.json
 inline
 /*.png
 *.html
-*.webm
+/*.webm  # 仅排除根目录, docs/ 演示视频可入库
 .server_pid.txt
 pytest_*.txt
