@@ -19,7 +19,7 @@ data/financial_cache.json
 # 调试残留
 *_dump.txt
 inline
-*.png
+/*.png
 *.html
 *.webm
 .server_pid.txt
