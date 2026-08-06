@@ -58,16 +58,16 @@ def step2_full():
 def step3_ascend():
     print("[3/4] 昇腾环境检测...")
     try:
-        import mindspore
-        from mindspore import context
-        context.set_context(device_target="Ascend")
-        print(f"  OK 昇腾 NPU 可用 (MindSpore {mindspore.__version__})")
-    except ImportError:
-        print("  - MindSpore 未安装")
-        print("    若本环境是昇腾 NPU 资源, 执行: pip install mindspore-ascend 后重跑")
-        print("    或配置昇腾云 API: 编辑 .env 填 ASCEND_API_KEY (见 README)")
+        from src import ascend_accel
+        info = ascend_accel.backend_info()
+        print(f"  计算框架: {info['framework']} | 设备: {info['device']}")
+        if info["ascend_npu"]:
+            print(f"  OK 昇腾 NPU 可用 ({info['note']})")
+        else:
+            print(f"  - 昇腾未启用: {info['note']}")
+            print("    若本环境是昇腾 NPU 资源, 请安装 mindspore-ascend 或 torch_npu 后重跑")
     except Exception as e:  # noqa: BLE001
-        print(f"  - NPU 检测失败, 使用 CPU: {type(e).__name__}")
+        print(f"  - 昇腾检测失败: {type(e).__name__}: {str(e)[:120]}")
 
 
 def step4_analysis():
