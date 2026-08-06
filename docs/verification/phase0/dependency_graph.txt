@@ -1,4 +1,4 @@
-Ä£¿éÒÀÀµÍ¼ (src/):
+æ¨¡å—ä¾èµ–å›¾ (src/):
   backtest_adapter: ['__future__', 'logging', 'pandas', 'src', 'typing']
   cache_manager: ['__future__', 'config', 'json', 'logging', 'pathlib', 'sqlite3', 'time', 'typing']
   data_collector: ['__future__', 'akshare', 'config', 'curl_cffi', 'dataclasses', 'datetime', 'json', 'logging', 'os', 'random', 'time', 'typing']
