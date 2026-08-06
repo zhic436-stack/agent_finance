@@ -74,5 +74,23 @@ with st.sidebar:
         st.caption("📍 " + _topic + "")
     if st.session_state.get("analysis_elapsed"):
         st.caption("⏱️ 耗时 " + str(round(st.session_state.get("analysis_elapsed", 0) / 1000, 1)) + " 秒")
+    # 昇腾技术栈状态 (合规证据: 昇腾算力使用可视化)
+    try:
+        from src.ascend_accel import backend_info
+        from src.ascend_monitor import monitor
+
+        _bi = backend_info()
+        _st = monitor.get_status()
+        if _bi.get("ascend_npu"):
+            _backend = "昇腾 NPU"
+        elif _bi.get("framework") != "numpy(fallback)":
+            _backend = f"MindSpore ({_bi.get('device')})"
+        else:
+            _backend = "numpy 降级"
+        st.caption("🧠 计算后端: " + _backend)
+        if _st.get("total_calls", 0) > 0:
+            st.caption("☁️ 昇腾模型调用 " + str(_st["total_calls"]) + " 次 · 成功率 " + str(_st["success_rate"]) + " · 均延迟 " + str(_st["avg_latency"]))
+    except Exception:  # noqa: BLE001 - 展示失败不影响页面
+        pass
 
 pg.run()

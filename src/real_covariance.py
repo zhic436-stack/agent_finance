@@ -68,8 +68,9 @@ def compute_covariance_matrix(
     # 强制 2-d (单列时 to_numpy 可能返回 1-d, 导致 np.cov 返回标量)
     returns_matrix = np.column_stack([ret_df[c].to_numpy() for c in ret_df.columns])
 
-    # Compute covariance (np.cov 单变量时返回 0-d 标量, 强制 2-d)
-    cov = np.atleast_2d(np.cov(returns_matrix, rowvar=False))
+    # Compute covariance: 昇腾 MindSpore 加速优先, numpy 兜底 (np.cov 单变量 0-d 已内部处理)
+    from src.ascend_accel import covariance_matrix as _ascend_cov
+    cov = np.atleast_2d(_ascend_cov(returns_matrix))
 
     if failed:
         # 失败股票填充平均方差 (而非 0 方差, 避免优化器视为零风险病态集中)

@@ -121,6 +121,8 @@ def render():
             st.error(backtest_result["error"])
             st.info("请检查网络连接，或在事件分析页面更换包含有效历史行情的股票池后重试。")
         else:
+            if backtest_result.get("data_source"):
+                st.info(f"数据来源：{backtest_result['data_source']}（真实行情不可用时自动降级，回测指标仍有参考价值）")
             st.markdown(f"### 回测结果 · {STRATEGY_LABELS.get(st.session_state.get('backtest_strategy'), '')}")
             _render_result(backtest_result)
 

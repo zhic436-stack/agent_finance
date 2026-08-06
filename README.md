@@ -130,6 +130,13 @@ parse_event → deduce_industry_chain → find_matching_concepts
 - **观察 Agent 过程**: 事件分析页底部"执行轨迹"展示每一步工具调用
 - 提示: Agent 模式较慢 (每轮 LLM 响应数秒~数十秒); 预置主题默认走演示缓存, 秒开
 
+## 昇腾技术栈（合规说明）
+
+- **昇腾云 LLM 推理**: 事件解析/Agent 决策/报告生成调用昇腾云大模型 API（ASCEND_API_BASE，GLM-5.2 on Ascend）
+- **MindSpore 计算层**: src/ascend_accel.py 用昇腾原生框架 MindSpore 实现协方差/归一化计算，昇腾环境自动启用 NPU（本机 numpy 降级）
+- **证据可视化**: UI 侧边栏展示「计算后端」与「昇腾模型调用」统计
+- 详见 docs/昇腾技术栈说明.md（含昇腾环境部署步骤与合规对照）
+
 ## 演示流程（5步走）
 
 1. **启动**: `streamlit run ui/app.py`
